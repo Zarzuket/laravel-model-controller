@@ -28,6 +28,12 @@ body {
 .container .card p {
   color: white;
 }
+.container .card p.blue {
+  color: blue;
+}
+.container .card p.gold {
+  color: gold;
+}
 .container .card a {
   text-decoration: none;
 }

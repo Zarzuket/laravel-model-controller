@@ -25,6 +25,12 @@ body{
         }
         p{
             color: white;
+            &.blue{
+                color: blue;
+            }
+            &.gold{
+                color: gold;
+            }
         }
         a{
             text-decoration: none;

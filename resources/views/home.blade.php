@@ -13,6 +13,8 @@
             <div class="card">
                 <a href="www.google.com"><h5>{{$movie->title}}</h5></a>
                 <p>{{$movie->original_title}}</p>
+                <p class="blue">{{$movie->date}}</p>
+                <p class="gold">{{$movie->vote}}</p>
             </div>
         @endforeach
 
